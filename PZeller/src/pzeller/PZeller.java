@@ -14,7 +14,8 @@ public class PZeller {
         System.out.print("Introduce the year that you want to check: ");
         int year_input = scan.nextInt();
         String name_day = day(check_programmers_day(year_input), 9, year_input);
-        System.out.println("The programmers day for the year:"+year_input+" fell on the "+check_programmers_day(year_input)+", that was a "+name_day);
+        System.out.println("The programmers day for the year "+year_input+", fell on september the "+check_programmers_day(year_input)+", that was a "+name_day+".");
+        System.out.println("Author: Àlex");
     }
 
     private static int check_programmers_day(int year) {
