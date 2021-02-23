@@ -3,7 +3,7 @@ package pzeller;
 import java.util.Scanner;
 
 /**
- *
+ * Version 0.01
  * @author alexcasviu
  */
 public class PZeller {
